@@ -10,7 +10,7 @@ import org.openqa.selenium.By;
 import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class LambdaStepsTest {
+public class PlainSelenideTest {
     @BeforeAll
     static void setUp() {
         Configuration.headless = true;

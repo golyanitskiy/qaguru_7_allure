@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
-public class SelenideOnlyTest {
+public class LambdaTests {
     @AfterAll
     static void tearDown() {
         closeWebDriver();
