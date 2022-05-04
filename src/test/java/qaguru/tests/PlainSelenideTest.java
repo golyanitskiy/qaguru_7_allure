@@ -23,6 +23,7 @@ public class PlainSelenideTest {
 
     @Test
     public void testIssueSearch() {
+        SelenideLogger.addListener("allure", new AllureSelenide());
         open("https://github.com");
 
         $(".header-search-input").click();
